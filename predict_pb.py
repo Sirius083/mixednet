@@ -60,10 +60,6 @@ def load_graph(graph_pb_path):
 
 
 graph = load_graph(graph_pb_path)
-
-
-
-
 # evaluation ============================================
 inputs  = graph.get_tensor_by_name(input_name)
 outputs = graph.get_tensor_by_name(output_name)
